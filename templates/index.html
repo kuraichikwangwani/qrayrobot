@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Gonai Login</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+	<div class="container">
+		<h1>Gonai Monthly Subscription</h1>
+		
+		<form class="form" method="POST">
+			<input name="text" id="text" placeholder="Enter ecocash number">
+			<button type="submit" id="pay">Pay via Paynow</button>
+		</form>
+	</div>
+	
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+<!-- partial -->
+  <script src="{{url_for('static',filename='js/script.js')}}"></script>
+
+</body>
+</html>
